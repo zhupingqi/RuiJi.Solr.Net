@@ -8,7 +8,6 @@
     <owners>$author$</owners>
     <licenseUrl>https://github.com/zhupingqi/RuiJi.Net/blob/master/LICENSE.txt</licenseUrl>
     <projectUrl>https://github.com/zhupingqi/RuiJi.Net</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>Apache Solr .Net Client</releaseNotes>

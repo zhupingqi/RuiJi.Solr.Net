@@ -14,7 +14,9 @@ The package contains commonly used Solr requests and handler, and can be added o
     _newsServer.AddHandler<SolrUpdateHandler>();
     _newsServer.AddHandler<SolrMltHandler>();
 
-    var selectHandler = SolrServerInstance.NewsServer.GetHandler<SolrSelectHandler>();
+Sample
+
+    var selectHandler = _newsServer.GetHandler<SolrSelectHandler>();
     selectHandler.Collection = "web";
 
     var query = new SolrSelectRequest();

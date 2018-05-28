@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuiJi.Solr.Net", "RuiJi.Solr.Net\RuiJi.Solr.Net.csproj", "{93181361-FFC1-4067-A0C8-FC6FA53B749B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuiJi.Solr.Net.Test", "RuiJi.Solr.Net.Test\RuiJi.Solr.Net.Test.csproj", "{19F8A448-6C7D-46DA-B553-0BA245DF4500}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93181361-FFC1-4067-A0C8-FC6FA53B749B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93181361-FFC1-4067-A0C8-FC6FA53B749B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93181361-FFC1-4067-A0C8-FC6FA53B749B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93181361-FFC1-4067-A0C8-FC6FA53B749B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F8A448-6C7D-46DA-B553-0BA245DF4500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F8A448-6C7D-46DA-B553-0BA245DF4500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F8A448-6C7D-46DA-B553-0BA245DF4500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F8A448-6C7D-46DA-B553-0BA245DF4500}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA8C5096-4249-48FB-926E-E76295668583}
+	EndGlobalSection
+EndGlobal

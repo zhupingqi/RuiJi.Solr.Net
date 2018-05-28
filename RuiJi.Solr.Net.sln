@@ -7,6 +7,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuiJi.Solr.Net", "RuiJi.Sol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuiJi.Solr.Net.Test", "RuiJi.Solr.Net.Test\RuiJi.Solr.Net.Test.csproj", "{19F8A448-6C7D-46DA-B553-0BA245DF4500}"
 EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "nuget", ".nuget\nuget.exe", "{2BAE72AF-5D72-4B1B-A7F6-8259B612E7C4}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = D:\云同步\vcoded\RuiJi.Solr.Net\.nuget\nuget.exe
+		RemoteMachine = THETRUST
+		StartingDirectory = D:\云同步\vcoded\RuiJi.Solr.Net\.nuget
+		Environment = 默认值
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF53560E-0AD3-42FB-B929-654165A92E94}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +40,14 @@ Global
 		{19F8A448-6C7D-46DA-B553-0BA245DF4500}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19F8A448-6C7D-46DA-B553-0BA245DF4500}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19F8A448-6C7D-46DA-B553-0BA245DF4500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BAE72AF-5D72-4B1B-A7F6-8259B612E7C4}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAE72AF-5D72-4B1B-A7F6-8259B612E7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2BAE72AF-5D72-4B1B-A7F6-8259B612E7C4} = {CF53560E-0AD3-42FB-B929-654165A92E94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA8C5096-4249-48FB-926E-E76295668583}

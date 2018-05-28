@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("Regards.Solr.Net")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Apache Solr .Net Client")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("zhupingqi")]
 [assembly: AssemblyProduct("Regards.Solr.Net")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]

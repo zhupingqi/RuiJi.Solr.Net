@@ -6,8 +6,8 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>https://github.com/zhupingqi/RuiJi.Net/blob/master/LICENSE.txt</licenseUrl>
-    <projectUrl>https://github.com/zhupingqi/RuiJi.Net</projectUrl>
+    <licenseUrl>https://github.com/zhupingqi/RuiJi.Solr.Net/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/zhupingqi/RuiJi.Solr.Net</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>Apache Solr .Net Client</releaseNotes>

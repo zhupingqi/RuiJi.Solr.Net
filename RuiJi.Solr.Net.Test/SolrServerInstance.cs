@@ -1,6 +1,5 @@
 ﻿using Regards.Solr.Net;
 using Regards.Solr.Net.Handler;
-using RuiJi.Net.Handler;
 using System;
 using System.Collections.Generic;
 using System.Linq;

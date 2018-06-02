@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Regards.Solr.Net;
 
-namespace RuiJi.Net.Handler
+namespace Regards.Solr.Net.Handler
 {
     public class AnalysisOptions : RequestOptionsBase
     {

@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace Regards.Solr.Net.Handler
 {
+    /// <summary>
+    /// 更新对象处理器
+    /// </summary>
     public class SolrUpdateHandler : SolrHandlerBase<SolrUpdateRequest>
     {
         public string UniqueField

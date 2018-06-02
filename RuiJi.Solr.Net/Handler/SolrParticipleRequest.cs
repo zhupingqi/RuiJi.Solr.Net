@@ -10,41 +10,24 @@ using System.Web;
 namespace Regards.Solr.Net.Handler
 {
     /// <summary>
-    /// 查询请求对象
+    /// 分词统计请求对象（此Solr接口需要单独扩展编写）
     /// </summary>
-    public class SolrSelectRequest : ISolrRequest
+    public class SolrParticipleRequest : ISolrRequest
     {
+
         public string q { get; set; }
-
-        /// <summary>
-        /// 在结果中查询
-        /// </summary>
-        public List<string> fq { get; set; }
-
-        public string sort { get; set; }
-
-        public int start { get; set; }
-
-        public int rows { get; set; }
 
         public string fl { get; set; }
 
-        public string df { get; set; }
 
-        [JsonProperty("json.facet")]
-        public string jsonFacet { get; set; }
+        [JsonProperty("qtv.fl")]
+        public string qtvFl { get; set; }
 
-        public string facet { get; set; }
+        public string qtv { get; set; }
 
         public string indent { get; set; }
 
-        [JsonProperty("facet.pivot")]
-        public string facetPivot { get; set; }
-
-        [JsonProperty("facet.limit")]
-        public string facetlimit { get; set; }
-
-        public string collection { get; set; }
+        public string collections { get; set; }
 
         public List<IRequestOptions> ExtraOptions
         {
@@ -52,10 +35,8 @@ namespace Regards.Solr.Net.Handler
             private set;
         }
 
-        public SolrSelectRequest()
+        public SolrParticipleRequest()
         {
-            rows = 10;
-            fq = new List<string>();
             ExtraOptions = new List<IRequestOptions>();
         }
 

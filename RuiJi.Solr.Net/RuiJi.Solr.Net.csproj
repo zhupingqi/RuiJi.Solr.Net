@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Handler\AnalysisOptions.cs" />
     <Compile Include="Handler\HighlightOptions.cs" />
+    <Compile Include="Handler\SolrParticipleHandler.cs" />
     <Compile Include="Handler\SolrStreamHandler.cs" />
     <Compile Include="Handler\SolrStreamRequest.cs" />
     <Compile Include="JsonNetSerialzier.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="SolrConnection.cs" />
     <Compile Include="Interface\SolrHandlerBase.cs" />
     <Compile Include="Response\SolrResponseHeader.cs" />
+    <Compile Include="Handler\SolrParticipleRequest.cs" />
     <Compile Include="SolrResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SolrServer.cs" />

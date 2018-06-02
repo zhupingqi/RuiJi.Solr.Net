@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Regards.Solr.Net.Handler
 {
+    /// <summary>
+    /// 相似结果处理器
+    /// </summary>
     public class SolrMltHandler : SolrHandlerBase<SolrSelectRequest>
     {
         public SolrMltHandler(SolrConnection connection)

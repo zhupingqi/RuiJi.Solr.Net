@@ -17,6 +17,9 @@ namespace Regards.Solr.Net.Handler
         Commit
     }
 
+    /// <summary>
+    /// 更新请求对象
+    /// </summary>
     public class SolrUpdateRequest : ISolrRequest
     {
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]

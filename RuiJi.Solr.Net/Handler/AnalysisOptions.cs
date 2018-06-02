@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using Regards.Solr.Net;
+using RuiJi.Solr.Net;
 
-namespace Regards.Solr.Net.Handler
+namespace RuiJi.Solr.Net.Handler
 {
     public class AnalysisOptions : RequestOptionsBase
     {

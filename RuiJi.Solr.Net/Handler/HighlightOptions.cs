@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace Regards.Solr.Net.Handler
+namespace RuiJi.Solr.Net.Handler
 {
     public class HighlightOptions : RequestOptionsBase
     {

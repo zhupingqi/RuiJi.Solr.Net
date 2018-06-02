@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Regards.Solr.Net
+namespace RuiJi.Solr.Net
 {
     public class JsonNetSerialzier : ISerializer
     {

@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace Regards.Solr.Net.Handler
+namespace RuiJi.Solr.Net.Handler
 {
     /// <summary>
     /// 分词统计请求对象（此Solr接口需要单独扩展编写）

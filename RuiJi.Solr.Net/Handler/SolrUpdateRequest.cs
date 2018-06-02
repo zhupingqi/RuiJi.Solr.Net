@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace Regards.Solr.Net.Handler
+namespace RuiJi.Solr.Net.Handler
 {
     public enum SolrUpdateRequestMethod
     { 

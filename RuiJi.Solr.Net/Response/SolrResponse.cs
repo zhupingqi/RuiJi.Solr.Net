@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Regards.Solr.Net.Response
+namespace RuiJi.Solr.Net.Response
 {
     public class SolrResponse<T>
     {

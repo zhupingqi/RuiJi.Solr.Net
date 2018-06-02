@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace Regards.Solr.Net
+namespace RuiJi.Solr.Net
 {
     public class SolrConnection
     {

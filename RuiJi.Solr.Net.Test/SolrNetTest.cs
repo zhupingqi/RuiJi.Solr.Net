@@ -1,16 +1,16 @@
-﻿using Regards.Solr.Net.Handler;
-using Regards.Solr.Net.Response;
+﻿using RuiJi.Solr.Net.Handler;
+using RuiJi.Solr.Net.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Regards.Solr.Net.Test.Document;
+using RuiJi.Solr.Net.Test.Document;
 using System.IO;
 using RuiJi.Net.Test;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Regards.Solr.Net.Test
+namespace RuiJi.Solr.Net.Test
 {
     [TestClass]
     public class SolrNetTest

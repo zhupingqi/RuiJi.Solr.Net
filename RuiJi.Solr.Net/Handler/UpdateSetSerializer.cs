@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Regards.Solr.Net.Handler
+namespace RuiJi.Solr.Net.Handler
 {
     public class UpdateSetSerializer : ISerializer
     {

@@ -1,11 +1,11 @@
-﻿using Regards.Solr.Net.Handler;
+﻿using RuiJi.Solr.Net.Handler;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Regards.Solr.Net.Utils
+namespace RuiJi.Solr.Net.Utils
 {
     public class Parameters
     {

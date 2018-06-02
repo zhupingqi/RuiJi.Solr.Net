@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Regards.Solr.Net.Test.Document
+namespace RuiJi.Solr.Net.Test.Document
 {
     public class EPaperDocument : DocumentBase
     {

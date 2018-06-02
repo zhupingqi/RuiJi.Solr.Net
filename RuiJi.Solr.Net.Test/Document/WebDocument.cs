@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Regards.Solr.Net.Test.Document
+namespace RuiJi.Solr.Net.Test.Document
 {
     public class WebDocument : DocumentBase
     {

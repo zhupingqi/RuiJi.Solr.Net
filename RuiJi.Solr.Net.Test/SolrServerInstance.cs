@@ -25,6 +25,7 @@ namespace RuiJi.Net.Test
             _newsServer.AddHandler<SolrSelectHandler>();
             _newsServer.AddHandler<SolrUpdateHandler>();
             _newsServer.AddHandler<SolrMltHandler>();
+            _newsServer.AddHandler<SolrParticipleHandler>();
 
 
             connection = new SolrConnection("http://192.168.101.3:9000/solr/tone");

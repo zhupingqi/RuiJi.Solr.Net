@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 using Regards.Solr.Net.Test.Document;
 using System.IO;
 using RuiJi.Net.Test;
-using RuiJi.Net.Handler;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Regards.Solr.Net.Test
@@ -107,6 +106,28 @@ namespace Regards.Solr.Net.Test
             var analysis = response.Result.GetData<List<AnalysisField>>("analysis.field_types.text_complex.query[-1:]");
 
             Assert.IsTrue(analysis.Count >= 0);
+        }
+
+        /// <summary>
+        /// 测试分词
+        /// </summary>
+        [TestMethod]
+        static void TestParticiple()
+        {
+            var handler = SolrServerInstance.NewsServer2.GetHandler<SolrParticipleHandler>();
+            handler.Collection = "web" + DateTime.Now.ToString("yyyyMM");
+
+            var query = new SolrParticipleRequest();
+            query.q = "newstime:{2018-5-30T0:00:00Z TO 2018-5-31T0:00:00Z}";
+            query.indent = "on";
+            query.fl = "id";
+            query.qtv = "true";
+            query.qtvFl = "cloud";
+
+            var response = handler.Request(query);
+
+            var result = response.Result.GetData<List<string>>("queryTerms[7]");
+            Assert.IsTrue(result.Count >= 0);
         }
 
         [TestMethod]

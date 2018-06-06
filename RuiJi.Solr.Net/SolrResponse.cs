@@ -3,9 +3,6 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RuiJi.Solr.Net
 {
@@ -24,9 +21,20 @@ namespace RuiJi.Solr.Net
             _responseTypeMap.Add("responseHeader", typeof(SolrResponseHeader));
         }
 
-        public static void AddResponseTypeMap<T>(string property)
+        public static void AddResponseTypeMap<T>(string key)
         {
-            _responseTypeMap.Add(property, typeof(T));
+            _responseTypeMap.Add(key, typeof(T));
+        }
+
+        public static void ClearResponseTypeMaps()
+        {
+            _responseTypeMap.Clear();
+            _responseTypeMap.Add("responseHeader", typeof(SolrResponseHeader));
+        }
+
+        public static bool RemoveResponseTypeMap(string key)
+        {
+            return _responseTypeMap.Remove(key);
         }
 
         public SolrResponse()
